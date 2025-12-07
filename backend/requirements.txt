@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+google-generativeai
+qdrant-client
+aiosqlite
+python-dotenv
