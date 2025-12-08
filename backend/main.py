@@ -17,6 +17,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+#textbook
+
 # Initialize services
 gemini_service = GeminiService()
 qdrant_service = QdrantService()
@@ -82,3 +84,5 @@ async def health_check():
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+
+#main.py
